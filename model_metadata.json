@@ -1,0 +1,56 @@
+{
+  "model_type": "RandomForestClassifier",
+  "n_estimators": 300,
+  "max_depth": 15,
+  "training_date": "2025-11-23 22:30:22",
+  "n_features": 25,
+  "n_training_samples": 224929,
+  "n_test_samples": 48172,
+  "test_accuracy": 0.9998339284231503,
+  "test_precision": 0.9998341565446579,
+  "test_recall": 0.9998339284231503,
+  "test_f1": 0.9998339588271637,
+  "oob_score": 0.9998221661057489,
+  "top_10_features": [
+    {
+      "feature": "tcpa",
+      "importance": 0.3069586628845833
+    },
+    {
+      "feature": "dcpa",
+      "importance": 0.23490855936241908
+    },
+    {
+      "feature": "relative_speed",
+      "importance": 0.11345145514066182
+    },
+    {
+      "feature": "distance",
+      "importance": 0.11267005376414696
+    },
+    {
+      "feature": "sog_2",
+      "importance": 0.04909819550951504
+    },
+    {
+      "feature": "distance_rate_of_change",
+      "importance": 0.031647079206621326
+    },
+    {
+      "feature": "relative_bearing",
+      "importance": 0.026922688067384477
+    },
+    {
+      "feature": "aspect_angle",
+      "importance": 0.02295811367498841
+    },
+    {
+      "feature": "speed_ratio",
+      "importance": 0.019380751296098456
+    },
+    {
+      "feature": "rate_of_bearing_change",
+      "importance": 0.018573548567291265
+    }
+  ]
+}
