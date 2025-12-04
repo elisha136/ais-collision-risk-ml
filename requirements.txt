@@ -1,0 +1,19 @@
+# Core Data Science Libraries
+numpy==2.2.6
+pandas==2.3.3
+scikit-learn==1.7.2
+joblib==1.5.2
+
+# Database
+SQLAlchemy==2.0.44
+psycopg2-binary==2.9.11
+
+# Visualization
+matplotlib==3.10.7
+seaborn==0.13.2
+folium==0.20.0
+
+# Jupyter Notebook
+jupyter>=1.0.0
+ipykernel>=6.0.0
+
